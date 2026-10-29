@@ -1,0 +1,359 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>The Nocturne Archive | Directory</title>
+
+  <style>
+    * {
+      box-sizing: border-box;
+      scroll-behavior: smooth;
+    }
+
+    body {
+      margin: 0;
+      padding: 40px 20px;
+      background:
+        radial-gradient(ellipse at top, #201927, #0a090e 65%);
+      color: #e4deeb;
+      font-family: Georgia, "Times New Roman", serif;
+      text-align: center;
+      min-height: 100vh;
+    }
+
+    a {
+      -webkit-tap-highlight-color: transparent;
+    }
+
+    .top {
+      color: #a998bd;
+      font-size: 10px;
+      letter-spacing: 5px;
+    }
+
+    h1 {
+      font-size: clamp(32px, 8vw, 50px);
+      font-weight: normal;
+      letter-spacing: 3px;
+      margin: 28px 0 12px;
+    }
+
+    h2 {
+      font-size: 23px;
+      font-weight: normal;
+      letter-spacing: 2px;
+    }
+
+    .intro {
+      color: #9991a4;
+      font-size: 13px;
+      line-height: 2;
+    }
+
+    .ornament {
+      color: #a998bd;
+      margin: 28px auto;
+      letter-spacing: 8px;
+    }
+
+    .contents {
+      max-width: 460px;
+      margin: 35px auto;
+      padding: 25px 20px;
+      background: #100e15;
+      border: 1px solid #39303f;
+      text-align: left;
+      box-shadow: 0 10px 35px #00000030;
+    }
+
+    .contents h2,
+    .contents .intro {
+      text-align: center;
+    }
+
+    .contents a {
+      display: block;
+      padding: 16px 8px;
+      border-bottom: 1px solid #302737;
+      color: #ded4e8;
+      text-decoration: none;
+      font-size: 14px;
+      transition: 0.3s;
+    }
+
+    .contents a:last-child {
+      border-bottom: none;
+    }
+
+    .contents a:hover {
+      padding-left: 16px;
+      background: #1a1520;
+    }
+
+    .number {
+      color: #a998bd;
+      margin-right: 12px;
+      font-size: 11px;
+      letter-spacing: 1px;
+    }
+
+    .section {
+      max-width: 460px;
+      margin: 35px auto;
+      padding: 30px 22px;
+      border: 1px solid #302737;
+      background: #100e15aa;
+      scroll-margin-top: 20px;
+    }
+
+    .section p {
+      color: #aaa2b4;
+      font-size: 13px;
+      line-height: 2;
+    }
+
+    .label {
+      color: #a998bd;
+      font-size: 10px;
+      letter-spacing: 4px;
+    }
+
+    .social {
+      display: inline-block;
+      margin-top: 12px;
+      padding: 12px 20px;
+      border: 1px solid #665473;
+      color: #ded4e8;
+      text-decoration: none;
+      font-size: 11px;
+      letter-spacing: 2px;
+    }
+
+    .social:hover {
+      background: #211a29;
+    }
+
+    .back {
+      display: inline-block;
+      margin: 25px 0;
+      color: #b9a6cc;
+      text-decoration: none;
+      font-size: 11px;
+      letter-spacing: 2px;
+    }
+
+    footer {
+      margin-top: 35px;
+      padding: 20px 0;
+      color: #605968;
+      font-size: 9px;
+      letter-spacing: 3px;
+      line-height: 2;
+    }
+  </style>
+</head>
+
+<body>
+
+  <header>
+    <div class="top">☾ THE NOCTURNE ARCHIVE ☽</div>
+
+    <h1>Table of Contents</h1>
+
+    <p class="intro">
+      Every door leads to another story.<br>
+      Choose where you wish to wander.
+    </p>
+
+    <div class="ornament">✦ ─── ✦ ─── ✦</div>
+  </header>
+
+  <main>
+
+    <!-- TABLE OF CONTENTS -->
+    <nav class="contents" aria-label="Table of Contents">
+
+      <h2>Directory</h2>
+
+      <p class="intro">
+        A guide to the world within.
+      </p>
+
+      <a href="#about">
+        <span class="number">01.</span>
+        About the Author
+      </a>
+
+      <a href="#profile">
+        <span class="number">02.</span>
+        Character Profile
+      </a>
+
+      <a href="#diary">
+        <span class="number">03.</span>
+        Personal Diary
+      </a>
+
+      <a href="#lore">
+        <span class="number">04.</span>
+        Character Lore
+      </a>
+
+      <a href="#muses">
+        <span class="number">05.</span>
+        Muse Directory
+      </a>
+
+      <a href="#links">
+        <span class="number">06.</span>
+        Social Links
+      </a>
+
+      <a href="#disclaimer">
+        <span class="number">07.</span>
+        Disclaimer
+      </a>
+
+    </nav>
+
+    <div class="ornament">☾ ✦ ☽</div>
+
+    <!-- 01: ABOUT -->
+    <section class="section" id="about">
+      <div class="label">01 / IDENTITY</div>
+      <h2>About the Author</h2>
+
+      <p>
+        Behind every story is a soul with a thousand
+        thoughts left unspoken. Welcome to my little
+        corner of the night.
+      </p>
+
+      <p>
+        This space is a reflection of my imagination,
+        my words, and the stories I choose to tell.
+      </p>
+    </section>
+
+    <!-- 02: CHARACTER PROFILE -->
+    <section class="section" id="profile">
+      <div class="label">02 / THE PERSONA</div>
+      <h2>Character Profile</h2>
+
+      <p>
+        Name: Your Character's Name
+      </p>
+
+      <p>
+        Alias: The Unknown
+      </p>
+
+      <p>
+        Age: Your Character's Age
+      </p>
+
+      <p>
+        Status: A mystery waiting to unfold.
+      </p>
+    </section>
+
+    <!-- 03: PERSONAL DIARY -->
+    <section class="section" id="diary">
+      <div class="label">03 / PRIVATE THOUGHTS</div>
+      <h2>Personal Diary</h2>
+
+      <p>
+        Some thoughts are too delicate for daylight
+        and some confessions belong only to midnight.
+      </p>
+
+      <p>
+        This is where fragments of my fictional
+        thoughts, memories, and reflections reside.
+      </p>
+    </section>
+
+    <!-- 04: CHARACTER LORE -->
+    <section class="section" id="lore">
+      <div class="label">04 / THE UNKNOWN</div>
+      <h2>Character Lore</h2>
+
+      <p>
+        Every legend has a beginning. Every shadow
+        carries a secret. Discover the history,
+        stories, and hidden truths behind my character.
+      </p>
+    </section>
+
+    <!-- 05: MUSE DIRECTORY -->
+    <section class="section" id="muses">
+      <div class="label">05 / CONNECTIONS</div>
+      <h2>Muse Directory</h2>
+
+      <p>
+        A collection of characters, meaningful
+        connections, and fictional relationships
+        that shape the story.
+      </p>
+
+      <p>
+        More entries will be revealed in time.
+      </p>
+    </section>
+
+    <!-- 06: SOCIAL LINKS -->
+    <section class="section" id="links">
+      <div class="label">06 / BEYOND THE ARCHIVE</div>
+      <h2>Social Links</h2>
+
+      <p>
+        Find my fictional presence beyond
+        this little corner of the internet.
+      </p>
+
+      <!-- Replace the URL with your own X profile -->
+      <a
+        class="social"
+        href="https://x.com/"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        TWITTER / X ↗
+      </a>
+    </section>
+
+    <!-- 07: DISCLAIMER -->
+    <section class="section" id="disclaimer">
+      <div class="label">07 / A SMALL REMINDER</div>
+      <h2>Disclaimer</h2>
+
+      <p>
+        This website is created for fictional
+        roleplay and creative expression.
+      </p>
+
+      <p>
+        The character, stories, and events presented
+        here are fictional unless otherwise stated.
+        Please respect personal boundaries and
+        distinguish fiction from reality.
+      </p>
+    </section>
+
+    <div class="ornament">✦ ─── ☾ ─── ✦</div>
+
+    <a class="back" href="index.html">
+      ☾ BACK TO THE BEGINNING
+    </a>
+
+  </main>
+
+  <footer>
+    THE NOCTURNE ARCHIVE<br>
+    FICTIONAL ROLEPLAY · MADE OF MOONLIGHT
+  </footer>
+
+</body>
+</html>
